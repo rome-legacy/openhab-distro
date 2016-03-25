@@ -1,0 +1,2 @@
+homie:alarm:ping     [ status=3 ]
+homie:alarm:test     [ status=3 ]
