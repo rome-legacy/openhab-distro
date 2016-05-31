@@ -1,2 +1,2 @@
 Number Ping_Status 		"Alarm Service Ping:Status"	<none> { channel="homie:alarm:ping:channelPing" }
-Switch mySwitch        "SWAG"  <none> {channel="homie:alarm:test:channelTest"}
+Switch mySwitch        "SWAG"  <none> { channel="homie:alarm:test:channelTest" }

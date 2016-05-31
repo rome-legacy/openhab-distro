@@ -1,6 +1,6 @@
 sitemap homie label="Homie Sitemap" {
 	Frame label="Homie Items" {
-		Text item=Ping_Status label="Server Status"
+		Text item=Ping_Status label="Server Status (sitemap) [%d]"
 		Switch item=mySwitch label="SWAGGY P"
 	}
 }

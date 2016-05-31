@@ -20,6 +20,10 @@ rule "Initialize HOMIE items"
 when
   System started
 then
-  sendCommand("Ping_Status", "test")
+  //sendCommand(Ping_Status, "test")
+//  postUpdate(Ping_Status, 12)
+//  postUpdate(mySwitch, ON)
+  sendCommand(Ping_Status, 16)
+//  logDebug("Homie", sendHttpDeleteRequest("http://localhost:8180/classicui/app"))
 end
 
